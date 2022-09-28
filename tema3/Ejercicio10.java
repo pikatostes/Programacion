@@ -1,5 +1,5 @@
 public class Ejercicio10 {
-	public static void main (String[] args) {
+	public static void main (String[] args){
 		String linea;
 		
 		System.out.println("----------------------");
@@ -12,7 +12,7 @@ public class Ejercicio10 {
 		
 		int res;
 		res=cantidad*1000;
-		System.out.println(cantidad + " Mb equivalen a " + res);
+		System.out.println(cantidad + " Mb equivalen a " + res + " Kb");
 		
 		
 	}

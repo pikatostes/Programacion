@@ -1,8 +1,8 @@
 public class Ejercicio9 {
 	public static void main (String[] args) {
 		String linea;
-    double pi;
-    pi=3.14;
+    double p;
+    p=3.14;
     
     System.out.println("--------------------------------------------");
     System.out.println("-------------VOLUMEN DE UN CONO-------------");
@@ -19,7 +19,7 @@ public class Ejercicio9 {
     h = Double.parseDouble(linea);
     
     double res;
-    res=(pi(r*r)*h)/3.0;
+    res=(p*r*r*h)/3.0;
     System.out.println("El volumen del cono es de " + res);
 	}
 }
