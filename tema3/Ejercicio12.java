@@ -20,10 +20,6 @@ public class Ejercicio12 {
 
         if (iva.equals("21%")){
             total=base+base*0.21;
-        } else if (iva.equals("10%")){
-            total=base+base*0.1;
-        } else if (iva.equals("4%")){
-            total=base+base*0.04;
         }
     }
 }

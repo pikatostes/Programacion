@@ -44,7 +44,7 @@ public class Ejercicio10 {
                 horoscopo = "Leo";
             }
         } else if ((mes.equals("Agosto") || mes.equals("Septiembre"))) {
-            if (dia >= 23 || dia <=22) {
+            if (dia > 22 || dia <=22) {
                 horoscopo = "Virgo";
             }
         } else if ((mes.equals("Septiembre") || mes.equals("Octubre"))) {
