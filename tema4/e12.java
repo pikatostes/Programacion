@@ -1,4 +1,4 @@
-public class e11 {
+public class e12 {
     public static void main(String[] args) {
         String linea;
         int puntuacion;
