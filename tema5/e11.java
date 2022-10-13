@@ -1,16 +1,18 @@
 public class e11 {
     public static void main(String[] args) {
-        int res = 0;
-        
         System.out.println("----------------------------------");
         System.out.println("---CUADRADO Y CUBO DE UN NÚMERO---");
         System.out.println("----------------------------------");
         System.out.println("Introduce un número");
-        int num = Integer.parseInt(System.console().readLine());
-
+        double num = Double.parseDouble(System.console().readLine());
+        int contador = 1;
+        System.out.printf("%15s %15s %15s \n",  "Número", "Cuadrado", "Cubo");
         do{
-            System.out.println(res= num*num);
+            double cua = Math.pow(num, 2);
+            double cubo = Math.pow(num, 2);
+            System.out.printf("%15f %15f %15f \n", num, cua, cubo);
             num++;
-        }while (num<=num+5);
+            contador++;
+        }while (contador < 6);
     }
 }
