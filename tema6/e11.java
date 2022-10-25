@@ -1,7 +1,3 @@
-// Escribe un programa que muestre 20 notas generadas al azar.
-// Las notas deben aparecer de la forma: suspenso, suficiente, bien, notable o sobresaliente.
-// Al final aparecerá el número de suspensos, el número de suficientes, el número de bienes, etc.
-
 public class e11 {
     public static void main(String[] args){
         int contadorSuspensos = 0;
@@ -12,7 +8,6 @@ public class e11 {
 
         for (int i = 0; i <= 19; i++) {
             int nota = (int) (Math.random() * 5);
-            String car = "a";
             switch (nota) {
                 case 0:
                     System.out.print(" suspenso ");

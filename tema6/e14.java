@@ -1,22 +1,41 @@
-// Realiza un programa que haga justo lo contrario a lo que hace el ejercicio 6.
-//El programa intentará adivinar el número que estás pensando - un número entre 0 y 100 - teniendo para ello 5 oportunidades.
-// En cada intento fallido, el programa debe preguntar si el número que estás pensando es mayor o menor que el que te acaba de decir.
-
-public class e14 {
-    public static void main(String[] args){
-        System.out.println("¿El número en el que estás pensando es el 50?");
-        String respuesta = System.console().readLine();
-
-        if (respuesta == "si"){
-            System.out.println("Demasaido fácil");
-        }
-        if (respuesta.equals("no")) {
-            System.out.println("¿El número que estás pensando es mayor o menor a 50?");
-            respuesta = System.console().readLine();
-            if (respuesta == "mayor"){
-                int num = (int)(Math.random()*50) + 1;
-                System.out.println(num);
+public class e142 {
+    public static void main(String[] args) {
+        System.out.println("Piensa en un número del 0 al 100: ");
+        int i = 1;
+        final int intentos = 5;
+        boolean acertado = false;
+        int maxim = 100;
+        int minim = 0;
+        while((i <= intentos)&&(!acertado)){
+            int num = (int)(Math.random()*(maxim-minim+1))+minim;
+            System.out.println("¿Es el " + num + "?");
+            System.out.println("(s) Sí  |  (+) Es mayor  |  (-) Tu número es menor");
+            String opcion = "";
+            opcion = System.console().readLine().toLowerCase();
+            switch(opcion){
+                case "s":
+                    acertado = true;
+                    System.out.println("Facilito");
+                    break;
+                case "+":
+                    minim = num+1;
+                    break;
+                case "-":
+                    maxim = num-1;
+                    break;
+                default:
+                    System.out.println("Caracter erróneo");
+                    i--;
+                    break;
             }
+            if ((minim > maxim) || (maxim < minim)){
+                System.out.println("Fullerías ninguna");
+                i--;
+            }
+            i++;
+        }
+        if (!acertado){
+            System.out.println("Good Game");
         }
     }
 }
