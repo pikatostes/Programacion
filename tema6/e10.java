@@ -10,7 +10,6 @@ public class e10 {
             int longitud = (int)(Math.random()*40)+1;
             for (int j = 0; j < longitud; j++){
                 int c = (int)(Math.random()*6);
-                String car = "a";
                 switch (c){
                     case 0:
                         System.out.print("*");

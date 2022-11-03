@@ -1,4 +1,4 @@
-public class e142 {
+public class e14 {
     public static void main(String[] args) {
         System.out.println("Piensa en un número del 0 al 100: ");
         int i = 1;
