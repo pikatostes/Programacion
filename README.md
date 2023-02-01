@@ -3,6 +3,11 @@
 ### TEMA 1
 #### <a href="tema1/Ejercicio1.java">1. </a>
 #### <a href="tema1/Ejercicio2.java">2. </a>
+#### <a href="tema1/ejercicio3.java">3. </a>
+#### <a href="tema1/ejercicio4.java">4. </a>
+#### <a href="tema1/Ejercicio5.java">5. </a>
+#### <a href="tema1/ejercicio6.java">6. </a>
+#### <a href="tema1/ejercicio7.java">7. </a>
 ### TEMA 2
 #### <a href="tema2/Ejercicio1.java">1. </a>
 #### <a href="tema2/Ejercicio2.java">2. </a>
