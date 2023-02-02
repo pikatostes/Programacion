@@ -84,6 +84,22 @@
 #### <a href="tema5/e33.java">33. </a>
 #### <a href="tema5/e34.java">34. </a>
 ### TEMA 6
+#### <a href="tema6/e1.java">1. </a>
+#### <a href="tema6/e2.java">2. </a>
+#### <a href="tema6/e3.java">3. </a>
+#### <a href="tema6/e4.java">4. </a>
+#### <a href="tema6/e5.java">5. </a>
+#### <a href="tema6/e6.java">6. </a>
+#### <a href="tema6/e7.java">7. </a>
+#### <a href="tema6/e8.java">8. </a>
+#### <a href="tema6/e9.java">9. </a>
+#### <a href="tema6/e10.java">10. </a>
+#### <a href="tema6/e10.java">11. </a>
+#### <a href="tema6/e10.java">12. </a>
+#### <a href="tema6/e10.java">13. </a>
+#### <a href="tema6/e10.java">14. </a>
+#### <a href="tema6/e10.java">15. </a>
+#### <a href="tema6/e10.java">16. </a>
 ### TEMA 7
 ### TEMA 8
 ## 2. Programación Orientada a Objetos
