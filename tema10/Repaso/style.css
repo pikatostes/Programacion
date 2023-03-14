@@ -1,0 +1,7 @@
+article > p {
+     color: blue;
+}
+
+section > p {
+     color: red;
+}
