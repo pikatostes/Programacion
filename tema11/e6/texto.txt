@@ -1,0 +1,5 @@
+Este es un archivo de ejemplo que contiene varias líneas de texto.
+En estas líneas hay diferentes palabras, algunas se repiten y otras no.
+El objetivo del programa es contar cuántas veces aparece una palabra dada en el fichero.
+Por ejemplo, si buscamos la palabra "archivo", deberíamos obtener como resultado 2,
+ya que la palabra "archivo" aparece dos veces en el fichero.

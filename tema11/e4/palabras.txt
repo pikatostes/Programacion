@@ -1,0 +1,10 @@
+hola
+adios
+perro
+gato
+raton
+sol
+luna
+estrella
+cielo
+mar
